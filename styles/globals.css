@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+img{
+  object-fit: cover;
+  object-position: 0 30%;
+}
+/* ----------  Loadig ---------- */
+@import  url('./loading.css');
+
+/* ----------  Products ---------- */
+@import  url('./product.css');
+
+/* ----------  Profile ---------- */
+@import  url('./profile.css');
+
+/* ----------  Products  Manager ---------- */
+@import  url('./products_manager.css');
