@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   env:{
-       "BASE_URL":'http://localhost:3000',
+       "BASE_URL":'https://nextjs-ecommerce-six-sigma.vercel.app/',
        "MONGODB_URL": 'mongodb+srv://Martin:Martin1234@cluster0.nordd.mongodb.net/Connections?retryWrites=true&w=majority',
        "ACCESS_TOKEN_SECRET":"martin11279984157400015",
        "REFRESH_TOKEN_SECRET":"martin123secret31726265rere948235005",
