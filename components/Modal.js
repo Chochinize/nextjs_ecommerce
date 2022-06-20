@@ -5,11 +5,10 @@ import {deleteData}  from  '../utilis/fetchData'
 import {useRouter} from 'next/router'
 
 
-console.log(process.env.BASE_URL)
 const Modal = () => {
   const {state,dispatch} = useContext(DataContext)
   const {modal,auth} = state
-
+    console.log(modal)
   const router = useRouter()
 
   const deleteUser = (item) =>{

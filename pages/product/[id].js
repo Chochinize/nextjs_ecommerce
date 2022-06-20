@@ -70,7 +70,7 @@ const DetailProduct = (props) => {
 
 export async function getServerSideProps({params: {id}}) {
 
-    const res = await getData(`product/${id}`)
+    const res = await getData(`/product/${id}`)
     // server side rendering
     return {
       props: { product: res.product }, // will be passed to the page component as props

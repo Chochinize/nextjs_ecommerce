@@ -27,7 +27,7 @@ const getOrders =  async(req,res)=>{
                 orders  = await Orders.find().populate('user','-password')
             }
             res.json({orders})
-        } catch (error) {
+        } catch (err) {
             return  res.status(500).json({err:err.message})
         }
 }
