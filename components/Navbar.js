@@ -40,7 +40,7 @@ const Navbar = () => {
     }
     const loggedRouter = () => {
         return(
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown ">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img src={auth.user.avatar} alt={auth.user.avatar} 
                     style={{
@@ -66,7 +66,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <Link  href="/">
-                <a className="navbar-brand">E-commerce</a>
+                <a className="navbar-brand bg-gray-200 px-10 rounded-full hover:bg-gray-300  mx-2">Tech Int</a>
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>

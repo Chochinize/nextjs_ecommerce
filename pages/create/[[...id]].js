@@ -116,7 +116,7 @@ const ProductsManager = () => {
         <title>Products Manager</title>
       </Head>
       <form className="row" onSubmit={handleSubmit}>
-        <div className="col-md-6">
+        <div className="col-md-6 border-2">
         
           
           <input
@@ -124,22 +124,22 @@ const ProductsManager = () => {
             name="title"
             value={title}
             placeholder="Title"
-            className="d-block  my-4 w-100 p-2"
+            className="d-block  border-2  my-4 w-100 p-2"
             onChange={handleChangeInput}
           />
-          <div className="row">
-            <div className="col-sm-6">
+          <div className="row border-2">
+            <div className="col-sm-6 ">
               <label htmlFor="price">Price</label>
               <input
                 type="number"
                 name="price"
                 value={price}
                 placeholder="Price"
-                className="d-block  w-100 p-2"
+                className="d-block  w-100 p-2 border-2"
                 onChange={handleChangeInput}
               />
             </div>
-            <div className="col-sm-6">
+            <div className="col-sm-6 border-2">
             <label htmlFor="inStock">In Stock</label>
               <input
                 type="number"
@@ -187,7 +187,7 @@ const ProductsManager = () => {
               ))}
             </select>
           </div>
-          <button type='submit'  className="btn  btn-info my-2  px-4 ">
+          <button type='submit'  className="hover:bg-red-200  rounded-full my-6  px-2 ">
           {onEdit ? 'Update' : 'Create'}
         </button>
         </div>
