@@ -1,5 +1,5 @@
 const  baseUrl  =  process.env.NEXT_PUBLIC_BASE_URL
-console.log('basicurl',baseUrl)
+
 export const getData  =  async(url,token)  =>{
     const  res  =  await  fetch(`${baseUrl}/api/${url}`,{
         method:'GET',
