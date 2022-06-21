@@ -66,23 +66,29 @@
 <!-- TABLE OF CONTENTS -->
 
 &#8595;
-   ```sh
+   
    * Registrations is enable but you can easly test it with these credentials
 
     test@gmail.com////1234567 demo
 
     admin@gmail.com////1234567 demo root admin
    
-   ```
    
-&#8595;
+   
+  * For checkout  use this credentials:
+
+   username &#8595;
    ```sh
-  * For checkout please use this credentials:
   
 
-   username: sb-nmgoy10682524@personal.example.com
+    sb-nmgoy10682524@personal.example.com
    
-   password: iZL1-iwn
+   ```
+   password: &#8595;
+
+   
+   ```
+    iZL1-iwn
    ```
    
 
