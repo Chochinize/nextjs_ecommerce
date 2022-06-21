@@ -1,3 +1,21 @@
+<details>
+  <summary>Table of Contents</summary>
+  
+  <ol>
+    <li><a href="#about" >About The Project</a></li>
+    <li><a href="#installation">Instalation</a></li>
+    <li><a href="#builtwith">Built with</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+</br>
+</br>
+</br>
+</br>
+
 ![](public/GIFS/login.gif ) 
 <div id="top"></div>
 <!--
@@ -46,39 +64,41 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  
-  <ol>
-    <li><a href="#about" >About The Project</a></li>
-    <li><a href="#installation">Instalation</a></li>
-    <li><a href="#builtwith">Built with</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-Registrations is enable but you can easly test it with these credentials
 
+&#8595;
    ```sh
-   
+   * Registrations is enable but you can easly test it with these credentials
+
     test@gmail.com////1234567 demo
 
     admin@gmail.com////1234567 demo root admin
    
    ```
    
+&#8595;
+   ```sh
+  * For checkout please use this credentials:
+  
 
+   username: sb-nmgoy10682524@personal.example.com
+   
+   password: iZL1-iwn
+   ```
+   
 
 <!-- ABOUT THE PROJECT -->
-## About
+### About
 </br>
 </br>
 </br>
  
 
+ Setting up the e-commerce wich is ready to use with  integrated paypal terminal 
 
 
+</br>
+</br>
+</br>
 
 
 
@@ -138,7 +158,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion that would make this better, please fork the repo and create a pull request.
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
@@ -154,7 +174,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- CONTACT -->
-## Contact
+### Contact
 
 github: [https://github.com/Chochinize](https://github.com/Chochinize)
 
@@ -167,7 +187,7 @@ Twitter - [https://twitter.com/chochinize](https://twitter.com/chochinize)
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+### Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
