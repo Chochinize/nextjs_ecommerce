@@ -116,7 +116,7 @@ const ProductsManager = () => {
         <title>Products Manager</title>
       </Head>
       <form className="row" onSubmit={handleSubmit}>
-        <div className="col-md-6 border-2">
+        <div className="col-md-6 mt-4 border-2">
         
           
           <input
@@ -124,10 +124,10 @@ const ProductsManager = () => {
             name="title"
             value={title}
             placeholder="Title"
-            className="d-block  border-2  my-4 w-100 p-2"
+            className="d-block  border-2 my-4 w-100 p-2"
             onChange={handleChangeInput}
           />
-          <div className="row border-2">
+          <div className="row ">
             <div className="col-sm-6 ">
               <label htmlFor="price">Price</label>
               <input
@@ -139,14 +139,14 @@ const ProductsManager = () => {
                 onChange={handleChangeInput}
               />
             </div>
-            <div className="col-sm-6 border-2">
+            <div className="col-sm-6 ">
             <label htmlFor="inStock">In Stock</label>
               <input
                 type="number"
                 name="inStock"
                 value={inStock}
                 placeholder="inStock"
-                className="d-block  w-100 p-2"
+                className="d-block  w-100 p-2 border-2"
                 onChange={handleChangeInput}
               />
             </div>
@@ -158,7 +158,7 @@ const ProductsManager = () => {
             rows="4"
             placeholder="Description"
             onChange={handleChangeInput}
-            className="d-block my-4 w-100 p-2"
+            className="d-block my-4 w-100 p-2 border-2"
             value={description}
           />
           <textarea
@@ -168,7 +168,7 @@ const ProductsManager = () => {
             rows="6"
             placeholder="Content"
             onChange={handleChangeInput}
-            className="d-block my-4 w-100 p-2"
+            className="d-block my-4 w-100 p-2 border-2"
             value={content}
           />
           <div className="input-group-prepend px-0 my-2">
@@ -187,7 +187,7 @@ const ProductsManager = () => {
               ))}
             </select>
           </div>
-          <button type='submit'  className="hover:bg-red-200  rounded-full my-6  px-2 ">
+          <button type='submit'  className="bg-black text-white   rounded-2xl w-44  my-6 py-4 ">
           {onEdit ? 'Update' : 'Create'}
         </button>
         </div>

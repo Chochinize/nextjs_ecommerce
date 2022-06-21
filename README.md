@@ -36,7 +36,7 @@
 
  
    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://nextjs-ecommerce-six-sigma.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
@@ -50,23 +50,10 @@
   <summary>Table of Contents</summary>
   
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#about" >About The Project</a></li>
+    <li><a href="#installation">Instalation</a></li>
+    <li><a href="#builtwith">Built with</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -77,14 +64,14 @@ Registrations is enable but you can easly test it with these credentials
    
     test@gmail.com////1234567 demo
 
-    admin@gmail.com////1234567 demo admin
+    admin@gmail.com////1234567 demo root admin
    
    ```
    
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About
 </br>
 </br>
 </br>
@@ -135,26 +122,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
 * [MongoDB](https://vuejs.org/)
-* [Cloudinary](https://angular.io/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
 
 
 <!-- ROADMAP -->
-## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
@@ -167,30 +142,25 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature`)
+3. Commit your Changes (`git commit -m 'Add some Amazing'`)
+4. Push to the Branch (`git push origin feature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+github: [https://github.com/Chochinize](https://github.com/Chochinize)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Porfolio: [https://portfolio-five-flax-33.vercel.app/](https://portfolio-five-flax-33.vercel.app/)
+
+Twitter - [https://twitter.com/chochinize](https://twitter.com/chochinize) 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

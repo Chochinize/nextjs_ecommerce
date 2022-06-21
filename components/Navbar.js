@@ -66,7 +66,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <Link  href="/">
-                <a className="navbar-brand bg-gray-200 px-10 rounded-full hover:bg-gray-300  mx-2">Tech Int</a>
+                <a className="navbar-brand bg-gray-200 px-10 rounded-full hover:bg-gray-300  mx-2"> LOGO</a>
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
