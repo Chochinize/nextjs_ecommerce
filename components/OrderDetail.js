@@ -66,8 +66,8 @@ const OrderDetail = ({orderDetail,state,dispatch})=>{
                             }
                             
                         </div>
-                                <div>
-                                <h3>Order Items</h3>
+                                <div className="border-2 ">
+                                <h3 className="p-4 border-2">Order Items</h3>
                                 {
                                     order.cart.map(item => (
                                         <div className='row border-bottom mx-0 p-2 justify-content-between align-items-center' key={item._id} style={{maxWidth:'550px'}}>

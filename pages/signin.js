@@ -64,9 +64,9 @@ useEffect(()=>{
     <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"  name="password"  value={password}  onChange={handleChangeInput}/>
   </div>
 
-  <button type="submit" className="btn btn-dark w-100">Login</button>
+  <button type="submit" className="btn bg-black btn-dark w-100">Login</button>
   <p>You don't have an account 
-      <Link href='/register'><a style={{color:'crimson'}}>Register</a></Link></p>
+      <Link href='/register'><a style={{color:'crimson'}} > Register</a></Link></p>
 </form>
     </div>
   );

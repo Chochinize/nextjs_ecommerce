@@ -63,13 +63,13 @@ const Register = () => {
             name="password" value={password} onChange={handleChangeInput} />
           </div>
 
-          <div className="form-group">
+          <div className="form-group ">
             <label htmlFor="exampleInputPassword2">Confirm Password</label>
             <input type="password" className="form-control" id="exampleInputPassword2"
             name="cf_password" value={cf_password} onChange={handleChangeInput} />
           </div>
           
-          <button type="submit" className="btn btn-dark w-100">Register</button>
+          <button type="submit" className="btn btn-dark w-100 bg-black">Register</button>
 
           <p className="my-2">
             Already have an account? <Link href="/signin"><a style={{color: 'crimson'}}>Login Now</a></Link>
