@@ -144,12 +144,24 @@ _Below is an example of how you can instruct your audience on installing and set
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [MongoDB](https://vuejs.org/)
-
-
+```js
+"dependencies": {
+    "bcrypt": "^5.0.1",
+    "js-cookie": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.3"
+  }
+``` 
 <!-- ROADMAP -->
 
 
