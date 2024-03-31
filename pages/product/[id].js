@@ -1,5 +1,5 @@
 import  Head  from 'next/head'
-import  {useState,useRef,useContext}  from 'react'
+import  {useState ,useContext}  from 'react'
 import  {getData}  from  '../../utilis/fetchData'
 import  {DataContext} from '../../store/GlobalState'
 import  {addToCart} from '../../store/Actions'
@@ -58,7 +58,7 @@ const DetailProduct = (props) => {
                     {product.content}
                 </div>
 
-                <button type="button" className="btn btn-dark d-block my-3 px-5"
+            <button type="button" className="btn bg-black  p-2 text-white d-block my-3 px-5"
                 onClick={() => dispatch(addToCart(product, cart))} >
                     Buy
                 </button>
